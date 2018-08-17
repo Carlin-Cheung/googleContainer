@@ -1,9 +1,7 @@
 # First docker file from bolingcavalry
-# VERSION 0.0.1
-# Author: bolingcavalry
-
-FROM tomcat:9.0
-
+# VERSION 9.0.10
+# Author: zhanggr
+FROM tomcat:9.0.10
 MAINTAINER "grcheng <grcheung@163.com>"
 
 COPY tomcat-users.xml /usr/local/tomcat/conf/
