@@ -1,2 +1,2 @@
-FROM k8s.gcr.io/elasticsearch:v5.6.4
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.5.4 
 MAINTAINER bigdata@nwpu.edu.cn
